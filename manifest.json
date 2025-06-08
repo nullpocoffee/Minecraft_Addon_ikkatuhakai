@@ -1,0 +1,25 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "一括破壊アドオン (原木/葉っぱ)",
+        "description": "スニークしながら斧で右クリックでON/OFF。対象は原木と葉っぱです。",
+        "uuid": "【ここに1つ目のUUIDを貼り付け】", 
+        "version": [1, 4, 0], 
+        "min_engine_version": [1, 21, 80]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "【ここに2つ目のUUIDを貼り付け】",
+            "version": [1, 4, 0],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0-beta"
+        }
+    ]
+}
